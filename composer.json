@@ -1,0 +1,32 @@
+{
+    "name": "nanuc/version-information",
+    "authors": [
+        {
+            "name": "Sebastian Schöps",
+            "email": "sebastian.schoeps@nanuc.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "livewire/livewire": "^2.3",
+        "graham-campbell/github": "^10.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "http-interop/http-factory-guzzle": "^1.0",
+        "nanuc/helpers": "^1.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nanuc\\VersionInformation\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nanuc\\VersionInformation\\VersionInformationServiceProvider"
+            ]
+        }
+    }
+}
