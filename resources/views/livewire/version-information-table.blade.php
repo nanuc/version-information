@@ -40,7 +40,7 @@
                             {{ $commit['commit']['author']['name'] }}
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500" nowrap>
-                            {{ datetime("medium", $commit['commit']['author']['date']) }}
+                            {!! datetime("medium", $commit['commit']['author']['date']) !!}
                         </td>
                     </tr>
                 @endforeach
