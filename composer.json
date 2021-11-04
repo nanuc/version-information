@@ -6,13 +6,19 @@
             "email": "sebastian.schoeps@nanuc.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nanuc/helpers.git"
+        }
+    ],
     "require": {
         "php": "^7.3|^8.0",
         "livewire/livewire": "^2.3",
         "graham-campbell/github": "^10.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "http-interop/http-factory-guzzle": "^1.0",
-        "nanuc/helpers": "^1.0"
+        "nanuc/helpers": "dev-master"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0"
